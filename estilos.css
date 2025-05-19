@@ -1,0 +1,87 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #CEDEF2;
+    color: #333;
+}
+
+header {
+    background-color: #6AA5D9;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.Titulo{
+    margin-left: 7%;
+    margin-top: 40px;
+    color: #548365;
+}
+
+.sobre {
+    display: flex;
+    flex-direction: row;
+    align-items: normal;
+    margin-top: 50px;
+    margin-left: 20px;
+    gap: 30px;
+    flex: 1;
+    
+    
+}
+
+.Logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* centraliza a imagem */
+    z-index: -9999; /*aqui ele deixa a logo embaixo dos outros elementos*/
+    opacity: 0.5;
+
+}   
+
+.texto {
+    max-width: 600px;
+    margin: 20px;
+    margin-left: -10px;
+    color: #46637D;
+    font-size: 24px;
+}
+
+footer { /*aqui e o estilo de cor e local do rodapé*/
+    background-color: #eee;
+    text-align: center;
+    margin-top: 100vh;
+    padding: 15px;
+    
+   
+}
+ 

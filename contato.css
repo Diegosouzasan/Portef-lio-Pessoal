@@ -1,0 +1,136 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #CEDEF2;
+    color: #333;
+}
+
+
+
+header {
+    background-color: #6AA5D9;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.Titulo{
+    margin-left: 7%;
+    margin-top: 40px;
+    color: #548365;
+}
+
+.sobre {
+    display: flex;
+    flex-direction: row;
+    align-items: normal;
+    margin-top: 50px;
+    margin-left: 20px;
+    gap: 30px;
+    flex: 1;
+    
+    
+}
+
+.Logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* centraliza a imagem */
+    z-index: -9999; 
+    opacity: 0.5;
+
+}   
+
+.texto {
+    max-width: 600px;
+    margin: 20px;
+    margin-left: -10px;
+    color: #46637D;
+}
+
+footer {
+    background-color: #eee;
+    text-align: center;
+    margin-top: 100vh;
+    padding: 15px;
+    
+   
+}
+ 
+form {
+      background: white;
+      padding: 30px 40px;
+      border-radius: 10px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      width: 620px;
+      box-sizing: border-box;
+    }
+    label {
+      display: block;
+      font-weight: 600;
+      margin-bottom: 8px;
+      color: #333;
+    }
+    input[type="text"],
+    input[type="email"],
+    textarea {
+      width: 100%;
+      padding: 10px 12px;
+      margin-bottom: 20px;
+      border: 1.8px solid #ccc;
+      border-radius: 6px;
+      font-size: 16px;
+      resize: vertical;
+      transition: border-color 0.3s ease;
+    }
+    input[type="text"]:focus,
+    input[type="email"]:focus,
+    textarea:focus {
+      border-color: #4a90e2;
+      outline: none;
+      box-shadow: 0 0 6px #4a90e2aa;
+    }
+    button {
+      width: 100%;
+      padding: 12px;
+      background-color: #4a90e2;
+      border: none;
+      color: white;
+      font-weight: 700;
+      font-size: 16px;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    button:hover {
+      background-color: #357abd;
+    }
